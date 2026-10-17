@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Ray's Auto Collision, Vinemont AL</title>
+<meta name="description" content="Contact Ray's Auto Collision in Vinemont, AL. Call (256) 739-1805 for a free estimate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="concept">Design concept</div>
+
+<div class="utilbar">
+  <div class="wrap">
+    <div class="left">
+      <span><i class="bi bi-clock"></i> Mon–Fri 8:00 AM – 5:30 PM</span>
+      <span class="addr"><i class="bi bi-geo-alt"></i> Vinemont, Alabama</span>
+    </div>
+    <a class="tel" href="tel:+12567391805"><i class="bi bi-telephone-fill"></i> (256) 739-1805</a>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="l1">RAY'S</span><span class="l2">AUTO COLLISION</span></a>
+    <nav class="nav-links">
+      <a class="page" href="index.html">Home</a>
+      <a class="page" href="services.html">Services</a>
+      <a class="page" href="gallery.html">Gallery</a>
+      <a class="page active" href="contact.html">Contact</a>
+      <a class="btn small" href="tel:+12567391805">Free Estimate</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+  </div>
+</header>
+
+<div class="callstrip">
+  <span class="kicker">Free estimates</span>
+  <h2>Let's look at the damage.</h2>
+  <p>Call, email, or swing by the shop — estimates are always free and always honest.</p>
+  <a class="bignum" href="tel:+12567391805">(256) 739-1805</a>
+</div>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="panels">
+      <div class="panel">
+        <h3><i class="bi bi-geo-alt"></i> Find us</h3>
+        <p>Vinemont, Alabama</p>
+        <p style="margin-top:14px"><a class="inline" href="https://www.google.com/maps/search/?api=1&query=Ray%27s+Auto+Collision+Vinemont+AL" target="_blank" rel="noopener">Open in Google Maps <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+      <div class="panel">
+        <h3><i class="bi bi-clock"></i> Shop hours</h3>
+        <div class="hours">
+          <div><span>Monday – Friday</span><span>8:00 AM – 5:30 PM</span></div>
+          <div><span>Saturday</span><span>Closed</span></div>
+          <div><span>Sunday</span><span>Closed</span></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h3><i class="bi bi-chat-dots"></i> Reach us</h3>
+        <p><a class="inline" href="mailto:rareinc71@gmail.com">rareinc71@gmail.com</a></p>
+        <p style="margin-top:14px"><a class="inline" href="https://www.facebook.com/RARE-Body-Shop-317535338951618/" target="_blank" rel="noopener">Message us on Facebook <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+    </div>
+    <p class="fineprint">Shop hours shown are typical — call ahead and we'll confirm. After-hours drop-off available by arrangement.</p>
+  </div>
+</section>
+
+<div class="cta-band">
+  <h2>Don't let a dent <span class="red">sit.</span></h2>
+  <p>Small damage gets worse (and pricier) with time. Get your free estimate today.</p>
+  <a class="btn" href="tel:+12567391805">Call (256) 739-1805</a>
+</div>
+
+<footer class="site">
+  <div class="wrap fgrid">
+    <div>
+      <div class="fbrand">RAY'S <em>AUTO COLLISION</em></div>
+      <p>Wrecked? We fix it right. Serving Vinemont and the surrounding area since 1994.</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html">Collision Repair</a></li>
+        <li><a href="services.html">Dent &amp; Paint</a></li>
+        <li><a href="services.html">Semi-Truck Repair</a></li>
+        <li><a href="services.html">Free Estimates</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Shop Hours</h4>
+      <ul>
+        <li>Mon – Fri: 8:00 AM – 5:30 PM</li>
+        <li>Sat – Sun: Closed</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+12567391805">(256) 739-1805</a></li>
+        <li><a href="mailto:rareinc71@gmail.com">rareinc71@gmail.com</a></li>
+        <li>Vinemont, AL</li>
+        <li><a href="https://www.facebook.com/RARE-Body-Shop-317535338951618/" target="_blank" rel="noopener">Facebook →</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap copy">
+    <span>© 2026 Ray's Auto Collision · Since 1994</span>
+    <span>Concept website design</span>
+  </div>
+</footer>
+<script>
+(function(){
+  var header = document.querySelector('header.site');
+  var btn = document.querySelector('.nav-toggle');
+  if(!header || !btn){return;}
+  var icon = btn.querySelector('i');
+  btn.addEventListener('click', function(){
+    var open = header.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    if(icon){ icon.className = open ? 'bi bi-x' : 'bi bi-list'; }
+  });
+})();
+</script>
+</body>
+</html>
